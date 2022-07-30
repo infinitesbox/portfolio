@@ -1,0 +1,25 @@
+.ending > .block-2
+{
+    box-sizing: border-box;
+    padding: 25px;
+}
+
+.ending > .block-2 .app
+{
+    max-width: 1000px;
+    margin: auto;
+}
+
+.ending > .block-2 .app .theme
+{
+    font-size: 0.8rem;
+    font-style: oblique;
+    display: flex;
+    gap: 10px;
+}
+            
+.ending > .block-2 .app .date,
+.ending > .block-2 .app .name
+{
+    font-weight: bolder;
+}

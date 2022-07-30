@@ -1,0 +1,5 @@
+.projects > .container > .block-2 > .project > .block-4 .keyword
+{
+    background-color: var(--color-5);
+    color: var(--color-2);
+}

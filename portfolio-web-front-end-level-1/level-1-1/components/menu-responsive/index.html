@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Menu Responsive</title>
+        <link rel="stylesheet" href="./css/index.css">
+
+        <!-- Menu Responsive -->
+        <link rel="stylesheet" href="./css/main.css">
+        <link rel="stylesheet" href="./css/custom.css">
+        <!-- Button Icon -->
+        <link rel="stylesheet" href="./css/button-icon/main.css">
+        <link rel="stylesheet" href="./css/button-icon/main.css">
+        <!-- Content Close -->
+        <link rel="stylesheet" href="./css/content-close/main.css">
+        <link rel="stylesheet" href="./css/content-close/custom.css">
+        <!-- Content Zero -->
+        <link rel="stylesheet" href="./css/content-zero/main.css">
+        <link rel="stylesheet" href="./css/content-zero/custom.css">
+        <!-- Content Zero - Avatar -->
+        <link rel="stylesheet" href="./css/content-zero-avatar/main.css">
+        <link rel="stylesheet" href="./css/content-zero-avatar/custom.css">
+        <!-- Content Zero - Languages -->
+        <link rel="stylesheet" href="./css/content-zero-languages/main.css">
+        <link rel="stylesheet" href="./css/content-zero-languages/custom.css">
+        <!-- Content Main -->
+        <link rel="stylesheet" href="./css/content-main/main.css">
+        <link rel="stylesheet" href="./css/content-main/custom.css">
+        <!-- Content Bottom -->
+        <link rel="stylesheet" href="./css/content-bottom/main.css">
+        <link rel="stylesheet" href="./css/content-bottom/custom.css">
+
+    </head>
+    <body>
+        
+        <nav class="menu-responsive">
+
+            <div class="content-close">
+                <div class="button-icon btn-close">
+                    <i class="fas fa-times"></i>
+                </div>
+            </div>
+        
+            <div class="content-zero">
+        
+                <div class="avatar">
+                    <div class="frame">
+                        <img src="../../../../images/avatar-200x200.png" alt="Avatar">
+                    </div>
+                </div>
+        
+                <h6 class="app-name">Portfolio</h6>
+        
+                <div class="languages">
+                    <a href="#" class="language">English</a>
+                    <a href="#" class="language">Français</a>
+                    <a href="#" class="language">Español</a>
+                </div>
+                
+            </div>
+        
+            <div class="content-main">
+                <a href="#" class="item">
+                    <div class="shape"></div>
+                    <div class="label">Projects</div>
+                </a>
+                <a href="#" class="item">
+                    <div class="shape"></div>
+                    <div class="label">Blog</div>
+                </a>
+            </div>
+        
+            <div class="content-bottom">
+        
+                <div class="links">
+                    
+                    <a href="#" class="link button-icon">
+                        <i class="fab fa-github"></i>
+                    </a>
+        
+                    <a href="#" class="link button-icon">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+        
+                    <a href="#" class="link button-icon">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+        
+                </div>
+        
+                <div class="app-name">Portofolio</div>
+        
+                <div class="app-name-domain">portfolio.com</div>
+        
+                <div class="app-theme">
+                    <div class="date">2022</div>
+                    <div class="label">Theme:</div>
+                    <div class="name">From Zero</div>
+                </div>
+        
+            </div>
+        
+        </nav>
+
+        <script src="./js/ButtonIcon.js"></script>
+        <script src="./js/MenuResponsive.js"></script>
+        <script>
+            const menuResponsive = new MenuResponsive({
+                element: document.querySelector('.menu-responsive'),
+            })
+        </script>
+
+    </body>
+</html>

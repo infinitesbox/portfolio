@@ -1,0 +1,9 @@
+.projects > .container > .block-2 > .project > .block-2 h6
+{
+    color: var(--color-4);
+}
+
+.projects > .container > .block-2 > .project > .block-2 .text
+{
+    color: var(--color-8);
+}

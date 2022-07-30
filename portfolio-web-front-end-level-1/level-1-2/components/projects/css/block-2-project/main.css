@@ -1,0 +1,9 @@
+.projects > .container > .block-2 > .project
+{
+    width: 250px;
+    height: 300px;
+    display: flex;
+    flex-shrink: 0;
+    flex-direction: column;
+    border-radius: 1rem;
+}

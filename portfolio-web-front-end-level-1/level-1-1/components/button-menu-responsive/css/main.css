@@ -1,0 +1,77 @@
+.button-menu-responsive
+{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    user-select: none;
+    z-index: 101;
+    border-radius: 30%;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4px;
+    box-sizing: border-box;
+    padding: 10px;
+
+    position: fixed;
+    top: 25px;
+    right: 25px;
+}
+
+.button-menu-responsive::before,
+.button-menu-responsive::after
+{
+        content: '';
+        display: block;
+        height: 2px;
+}
+
+.button-menu-responsive::before
+{
+    width: 80%;
+}
+
+.button-menu-responsive::after
+{
+    width: 100%;
+}
+
+.button-menu-responsive div
+{
+    width: 40%;
+    height: 2px;
+}
+        
+.button-menu-responsive::before,
+.button-menu-responsive::after,
+.button-menu-responsive div
+{
+    transition-property: width;
+    transition-duration: 0.5s;
+}
+
+.button-menu-responsive:hover::before,
+.button-menu-responsive.selected::before
+{
+    width: 100%;
+}
+
+.button-menu-responsive:hover::after,
+.button-menu-responsive.selected::after
+{
+    width: 40%;
+}
+
+.button-menu-responsive:hover div,
+.button-menu-responsive.selected div
+{
+    width: 80%;
+}
+
+@media ( max-width: 1000px )
+{
+    .button-menu-responsive
+    {   
+        display: flex;
+    }
+}

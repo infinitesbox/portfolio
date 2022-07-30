@@ -1,0 +1,4 @@
+.projects > .container > .block-2 > .project
+{
+    box-shadow: 0 10px 20px 0 var(--color-11);
+}

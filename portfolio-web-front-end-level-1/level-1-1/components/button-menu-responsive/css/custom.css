@@ -1,0 +1,26 @@
+.button-menu-responsive
+{
+    background-color: var(--color-2);
+    box-shadow: 1px 1px 0px var(--color-11);
+}
+
+.button-menu-responsive::before,
+.button-menu-responsive::after,
+.button-menu-responsive div
+{
+    background-color: var(--color-8);
+}
+
+.button-menu-responsive:hover::before,
+.button-menu-responsive:hover::after,
+.button-menu-responsive:hover div
+{
+    background-color: var(--color-12);
+}
+
+.button-menu-responsive.selected::before,
+.button-menu-responsive.selected::after,
+.button-menu-responsive.selected div
+{
+    background-color: var(--color-12);
+}

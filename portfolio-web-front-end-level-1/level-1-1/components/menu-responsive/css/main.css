@@ -1,0 +1,46 @@
+.menu-responsive
+{
+    width: 400px;
+    height: 100%;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-responsive a
+{
+    text-decoration: none;
+}
+
+@media ( max-width: 1000px )
+{
+    .menu-responsive
+    {
+        position: fixed;
+        top: 0;
+        left: -400px;
+        z-index: 100;
+        display: none;
+        transition-property: left;
+        transition-duration: 0.5s;
+        z-index: 110;
+    }
+
+    .menu-responsive.selected
+    {
+        display: flex;
+    }
+            
+    .menu-responsive.ready
+    {
+        left: 0;
+    }
+}
+
+@media ( max-width: 425px )
+{
+    .menu-responsive
+    {
+        width: 100%;
+    }
+}

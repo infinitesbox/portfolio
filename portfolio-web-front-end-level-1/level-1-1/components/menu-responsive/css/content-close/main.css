@@ -1,0 +1,21 @@
+.content-close
+{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 25px;
+    display: none;
+    justify-content: flex-end;
+}
+    
+.content-close .button-icon
+{
+    font-size: 15px;
+}
+
+@media screen and ( max-width: 1000px)
+{
+    .content-close
+    {
+        display: flex;
+    }
+}

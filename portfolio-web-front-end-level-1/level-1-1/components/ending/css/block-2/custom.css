@@ -1,0 +1,11 @@
+.ending > .block-2
+{
+    background-color: var(--color-1);
+    color: var(--color-10);
+    border-top: 2px solid var(--color-12);
+}
+
+.ending > .block-2 .theme .name
+{
+    color: var(--color-12);
+}

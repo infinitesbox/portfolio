@@ -1,0 +1,56 @@
+.content-zero .avatar
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: auto;
+    position: relative;
+}
+
+.content-zero .avatar::before,
+.content-zero .avatar::after
+{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+}
+
+.content-zero .avatar::before
+{
+    width: 90%;
+    height: 90%;
+}
+
+.content-zero .avatar::after
+{
+    width: 80%;
+    height: 80%;
+} 
+    
+.content-zero .avatar .frame
+{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    z-index: 10;
+}
+
+.content-zero .avatar .frame img
+{
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

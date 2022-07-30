@@ -1,0 +1,32 @@
+.content-main .item
+{
+    color: var(--color-10);
+}
+
+.content-main .item .shape
+{
+    border: 2px solid var(--color-10);
+}
+
+.content-main .item:hover
+{
+    color: var(--color-11);
+}
+
+.content-main .item:hover .shape
+{
+    background-color: var(--color-11);
+}
+
+.content-main .item.selected
+{
+    color: var(--color-12);
+}
+
+.content-main .item.selected .shape
+{
+    background-color: var(--color-12);
+    border: 2px solid var(--color-12);
+}
+            
+        

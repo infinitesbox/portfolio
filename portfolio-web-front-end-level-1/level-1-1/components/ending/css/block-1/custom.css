@@ -1,0 +1,39 @@
+.ending > .block-1
+{
+    background-color: var(--color-1);
+    color: var(--color-2);
+}
+
+.ending > .block-1 .container .block-1 .links .link
+{
+    border: 2px solid var(--color-12);
+    color: var(--color-12);
+}
+
+.ending > .block-1 .container .block-1 .links .link:hover
+{
+    background-color: var(--color-12);
+    color: var(--color-2);
+}
+
+.ending > .block-1 .container .block-2 div[class^="btn-"]
+{
+    border: 2px solid var(--color-12)
+}
+
+.ending > .block-1 .container .block-2 .btn-cv:hover
+{
+    color: var(--color-12);
+}
+
+.ending > .block-1 .container .block-2 .btn-message
+{
+    background-color: var(--color-3);
+    color: var(--color-2);
+}
+
+.ending > .block-1 .container .block-2 .btn-message:hover
+{
+    background-color: var(--color-12);
+}
+

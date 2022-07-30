@@ -1,0 +1,32 @@
+.content-main
+{
+    width: 100%;
+    flex: 1;
+    box-sizing: border-box;
+    padding: 50px;
+}
+
+.content-main .item
+{
+    display: flex;
+    gap: 25px;
+    margin-top: 25px;
+    transition: color 0.5s;
+}
+        
+.content-main .item .shape
+{
+    display: block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    transition-property: border, background-color;
+    transition-duration: 0.5s;
+}
+
+.content-main .item .label
+{
+    font-size: 1.1rem;
+}
+
+        

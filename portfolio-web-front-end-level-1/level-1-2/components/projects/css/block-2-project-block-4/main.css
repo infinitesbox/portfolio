@@ -1,0 +1,17 @@
+.projects > .container > .block-2 > .project > .block-4
+{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.projects > .container > .block-2 > .project > .block-4 .keyword
+{
+    font-size: 0.8rem;
+    box-sizing: border-box;
+    padding: 5px 10px;
+    border-radius: 1rem;
+}

@@ -1,0 +1,87 @@
+.ending > .block-1
+{
+    box-sizing: border-box;
+    padding: 50px 25px;
+}
+
+.ending > .block-1 .container
+{
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    gap: 50px;
+}
+
+.ending > .block-1 .container .block-1
+{
+    max-width: 400px;
+}
+        
+.ending > .block-1 .container .block-1 h6
+{
+    font-size: 1.5rem;
+}
+
+.ending > .block-1 .container .block-1 .text
+{
+    font-size: 0.9rem;
+    line-height: 1.2;
+    margin-top: 25px;
+}
+
+.ending > .block-1 .container .block-1 .links
+{
+    width: 100%;
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 40px);
+    gap: 15px;
+    margin-top: 25px;
+}
+
+.ending > .block-1 .container .block-1 .links .button-icon
+{
+    width: 40px;
+    height: 40px;
+    font-size: 15px;
+}
+
+.ending > .block-1 .container .block-2
+{
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.ending > .block-1 .container div[class^="btn-"],
+.ending > .block-1 .container a[class^="btn-"]
+{
+    width: 150px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    font-weight: bolder;
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding: 10px;
+    cursor: pointer;
+    user-select: none;
+}
+
+@media (max-width: 1000px) 
+{
+    .ending > .block-1 .container
+    {
+        flex-direction: column;
+    }
+}
+
+            
+        
+        
+        

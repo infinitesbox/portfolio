@@ -1,0 +1,44 @@
+.hero > .container > .block-2
+{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.hero > .container > .block-2 > .text
+{
+    max-width: 400px;
+}
+
+.hero > .container > .block-2 > .text > p 
+{
+    font-size: 1.1rem;
+    line-height: 1.2;
+    margin-top: 25px;
+}
+
+.hero > .container > .block-2 > .text > .languages
+{
+    width: 100%;
+    margin-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.hero > .container > .block-2 > .text > .languages > .language
+{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+    box-sizing: border-box;
+    padding: 10px 25px;
+    border-radius: 1rem;
+    text-decoration: none;
+    user-select: none;
+}
+
+

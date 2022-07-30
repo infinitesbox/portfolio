@@ -1,0 +1,26 @@
+.content-zero .languages .language
+{
+    color: var(--color-10);
+}
+
+.content-zero .languages .language:not(.selected):hover
+{
+    color: var(--color-11);
+}
+
+.content-zero .languages .language:not(.selected):hover::before
+{
+    background-color: var(--color-11);
+}
+
+.content-zero .languages .language.selected
+{
+    color: var(--color-12);
+}
+    
+.content-zero .languages .language::before
+{
+    background-color: var(--color-12);
+}
+
+            

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Hero</title>
+
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <link rel="stylesheet" href="./css/index.css">
+
+        <!-- Hero -->
+        <link rel="stylesheet" href="./css/main.css">
+        <link rel="stylesheet" href="./css/custom.css">
+
+        <!-- Hero - Block 1 -->
+        <link rel="stylesheet" href="./css/block-1/main.css">
+        <link rel="stylesheet" href="./css/block-1/custom.css">
+
+        <!-- Hero - Block 2 -->
+        <link rel="stylesheet" href="./css/block-2/main.css">
+        <link rel="stylesheet" href="./css/block-2/custom.css">
+
+    </head>
+    <body>
+
+        <section class="hero">
+
+            <div class="animation" id="animation"></div>
+
+            <div class="container">
+                <div class="block-1">
+                    <div class="links">
+                        <a href="#" class="button-link">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="#" class="button-link">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                        <a href="#" class="button-link">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                        <a href="#" class="button-link">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+                        <a href="#" class="button-link">
+                            <i class="fa-brands fa-codepen"></i>
+                        </a>
+                        <a href="#" class="button-link">
+                            <i class="fa-brands fa-dribbble"></i>
+                        </a>
+                        <a href="#" class="button-link">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                        <a href="#" class="button-link">
+                            <i class="fa-brands fa-discord"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="block-2">
+                    <div class="text">
+                        <h1>PORTFOLIO</h1>
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet optio reprehenderit quaerat, 
+                            voluptatem culpa ipsam laboriosam soluta eos in architecto?
+                        </p>
+                        <div class="languages">
+                            <a href="#" class="language">English</a>
+                            <a href="#" class="language">Français</a>
+                            <a href="#" class="language">Español</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Particule Js -->
+        <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+        <!-- https://vincentgarreau.com/particles.js/ -->
+        <script src="./js/Hero.js"></script>
+        <script>
+            const hero = new Hero({
+                element: document.querySelector('.hero'),
+            })
+        </script>
+        
+    </body>
+</html>

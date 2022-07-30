@@ -1,0 +1,12 @@
+.hero > .container > .block-2 > .text > .languages > .language
+{
+    background-color: var(--color-2);
+    color: var(--color-3);
+}
+
+.hero > .container > .block-2 > .text > .languages > .language:hover,
+.hero > .container > .block-2 > .text > .languages > .language.selected
+{
+    background-color: var(--color-6);
+    color: var(--color-2);
+}

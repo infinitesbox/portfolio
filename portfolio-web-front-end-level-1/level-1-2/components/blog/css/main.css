@@ -1,0 +1,24 @@
+.blog
+{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 100px 10px;
+    overflow: visible;
+}
+
+.blog > .container
+{
+    max-width: 1300px;
+    margin: auto;
+    display: flex;
+    gap: 50px;
+    overflow: visible;
+}
+
+@media (max-width: 1200px)
+{
+    .blog > .container
+    {
+        flex-direction: column;
+    }
+}

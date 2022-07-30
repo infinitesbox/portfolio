@@ -1,0 +1,23 @@
+.blog > .container > .block-2
+{
+    flex: 0.4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.blog > .container > .block-2 > .text
+{
+    font-size: 1.1rem;
+    max-width: 400px;
+}
+
+@media (max-width: 1200px)
+{
+    .blog > .container > .block-2
+    {
+        order: -1;
+    }
+}

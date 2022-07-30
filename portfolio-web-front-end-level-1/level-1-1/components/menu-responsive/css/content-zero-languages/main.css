@@ -1,0 +1,35 @@
+.content-zero .languages
+{
+    margin-top: 25px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    font-style: oblique;
+    position: relative;
+}
+
+.content-zero .languages .language
+{
+    box-sizing: border-box;
+    padding: 5px 0px;
+    position: relative;
+}
+
+.content-zero .languages .language::before
+{
+    content: '';
+    display: block;
+    width: 0%;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s width;
+}
+
+.content-zero .languages .language:hover :before,
+.content-zero .languages .languageselected :before
+{
+    width: 100%;
+}
+

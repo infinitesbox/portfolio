@@ -1,0 +1,16 @@
+.content-bottom .links .button-icon
+{
+    color: var(--color-10);
+}
+
+.content-bottom .links .button-icon:hover
+{
+    background-color: var(--color-12);
+    color: var(--color-2);
+}
+
+.content-bottom .app-theme,
+.content-bottom .name
+{
+    color: var(--color-12);
+}

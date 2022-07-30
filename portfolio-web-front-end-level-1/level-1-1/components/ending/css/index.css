@@ -1,0 +1,44 @@
+:root
+{
+    --color-1: #000000;
+    --color-2: #ffffff;
+    --color-3: #242628;
+    --color-4: #303438;
+    --color-5: #132238;
+    --color-6: #912741;
+    --color-7: #f5f8fa;
+    --color-8: #7e8299;
+    --color-9: #09091026;
+    --color-10: #C0C0C0;
+    --color-11: #E5E4E2;
+    --color-12: #878681;
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+:focus
+{
+    outline: none;
+}
+::-moz-focus-inner
+{
+    border: 0;
+}
+
+html, 
+body
+{
+    width: 100%;
+    min-height: 100vh;
+}
+
+
+body
+{
+    position: relative;
+    -webkit-tap-highlight-color: transparent;
+}
