@@ -1,0 +1,55 @@
+.button-menu-responsive
+    width: 40px
+    height: 40px
+    cursor: pointer
+    user-select: none
+    z-index: 101
+    border-radius: 30%
+    display: none
+    flex-direction: column
+    justify-content: center
+    gap: 4px
+    box-sizing: border-box
+    padding: 10px
+    position: fixed
+    top: 25px
+    right: 25px
+
+
+    &::before,
+    &::after
+        content: ''
+        display: block
+        height: 2px
+
+    &::before
+        width: 80%
+
+    &::after
+        width: 100%
+
+    div
+        width: 40%
+        height: 2px
+        
+    &::before,
+    &::after,
+    div
+        transition-property: width
+        transition-duration: 0.5s
+
+    &:hover::before,
+    &.selected::before
+        width: 100%
+
+    &:hover::after,
+    &.selected::after
+        width: 40%
+
+    &:hover div,
+    &.selected div
+        width: 80%
+
+    @media ( max-width: 1000px )
+        display: flex
+

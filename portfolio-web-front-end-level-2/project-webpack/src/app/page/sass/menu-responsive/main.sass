@@ -1,0 +1,35 @@
+#page-menu-responsive
+    width: 400px
+    height: 100%
+    overflow: auto
+    display: flex
+    flex-direction: column
+
+    a
+        text-decoration: none
+
+    @import './content-close/main'
+    @import './content-zero/main'
+    @import './content-main/main'
+    @import './content-bottom/main'
+
+    @media ( max-width: 1000px )
+
+        position: fixed
+        top: 0
+        left: -400px
+        z-index: 100
+        display: none
+        transition-property: left
+        transition-duration: 0.5s
+        z-index: 110
+
+        &.selected
+            display: flex
+            
+        &.ready
+            left: 0
+
+    @media ( max-width: 425px )
+
+        width: 100%

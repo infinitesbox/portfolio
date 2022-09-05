@@ -1,0 +1,21 @@
+.blog
+    width: 100%
+    box-sizing: border-box
+    padding: 100px 10px
+    overflow: visible
+
+    & > .container
+        max-width: 1300px
+        margin: auto
+        display: flex
+        gap: 50px
+        overflow: visible
+
+        @import './block-1/main'
+        @import './block-2/main'
+
+    @media ( max-width: 1200px )
+
+        & > .container
+            flex-direction: column
+        
