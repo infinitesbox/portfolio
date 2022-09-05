@@ -35,7 +35,8 @@ class MenuResponsive
         if(!this.element.classList.contains('ready'))
         {
             this.element.classList.remove('selected')
-            this.onSelect(false)
+            if(this.onSelect)
+                this.onSelect(false)
         }
     }
 
@@ -46,7 +47,8 @@ class MenuResponsive
 
         if(this.isSelected)
         {
-            this.onSelect(true)
+            if(this.onSelect)
+                this.onSelect(true)
             this.element.classList.add('selected')
 
             clearTimeout(this.idTimeout)
@@ -68,7 +70,8 @@ class MenuResponsive
 
         if(this.isSelected)
         {
-            this.onSelect(true)
+            if(this.onSelect)
+                this.onSelect(true)
             this.element.classList.add('selected')
 
             clearTimeout(this.idTimeout)
@@ -86,6 +89,7 @@ class MenuResponsive
 
     handleClose()
     {
+        this.setSelected(false)
         this.onClose()
     }
 }
