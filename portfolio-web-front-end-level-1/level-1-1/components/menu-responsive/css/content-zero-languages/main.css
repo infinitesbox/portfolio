@@ -27,8 +27,8 @@
     transition: 0.5s width;
 }
 
-.content-zero .languages .language:hover :before,
-.content-zero .languages .languageselected :before
+.content-zero .languages .language:hover::before,
+.content-zero .languages .language.selected::before
 {
     width: 100%;
 }

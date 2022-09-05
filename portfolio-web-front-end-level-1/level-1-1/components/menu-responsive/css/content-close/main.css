@@ -12,7 +12,7 @@
     font-size: 15px;
 }
 
-@media screen and ( max-width: 1000px)
+@media ( max-width: 1000px )
 {
     .content-close
     {
