@@ -11,8 +11,8 @@ Try it!
 
 ### Blog
 ---
-- English - [Front End Developer - Level 2](#)
-- Français - [Front End Développeur - Niveau 2](#)
+- English - [Front End Developer - Level 2](https://infinitesparkbox.com/blog/2022/09/05/front-end-developer-level-2/)
+- Français - [Front End Développeur - Niveau 2](https://infinitesparkbox.com/blog/2022/09/05/front-end-developpeur-niveau-2/)
 
 
 
