@@ -1,0 +1,37 @@
+.tabs-nav
+    display: flex
+    flex-wrap: wrap
+    gap: 10px
+    box-sizing: border-box
+    padding: 25px
+    user-select: none
+
+    & > .tn-item
+        box-sizing: border-box
+        cursor: pointer
+        position: relative
+        font-size: 0.8rem
+        &:hover,
+        &.selected
+            &::before
+                content: ''
+                display: block
+                width: 100%
+                height: 2px 
+                position: absolute
+                bottom: -4px
+                left: 0
+
+.tabs-contents 
+    width: 100%
+    flex: 1
+    display: flex
+    flex-direction: column
+
+    & > .tc-content
+        width: 100%
+        flex: 1
+        display: none
+        flex-direction: column
+        &.selected
+            display: flex

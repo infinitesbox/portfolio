@@ -1,0 +1,27 @@
+.dialog-destroy
+    width: 400px
+    height: 100vh
+    overflow: auto // hidden
+    position: fixed
+    top: 0
+    right: -600px
+    z-index: 110
+    display: none
+    flex-direction: column
+    transition-property: right
+    transition-duration: 0.5s
+
+    &.selected
+        display: flex
+
+    &.is-ready
+        right: 0
+
+    @import './content-close/main'
+    @import './content-zero/main'
+    @import './content-main/main'
+
+
+    @media ( max-width: 500px )
+        width: 100%
+        right: -110%

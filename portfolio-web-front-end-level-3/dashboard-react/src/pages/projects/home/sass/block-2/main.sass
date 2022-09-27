@@ -1,0 +1,21 @@
+& > .block-2
+    width: 100%
+    flex: 1
+    display: flex
+    flex-direction: column
+    gap: 25px
+    box-sizing: border-box
+    padding: 50px 10px
+
+    @import './message-empty/main'
+
+    .projects
+        width: 100%
+        display: grid
+        gap: 25px
+        grid-template-columns: repeat(auto-fill, 250px)
+        justify-content: center
+
+        @import './project/main'
+
+

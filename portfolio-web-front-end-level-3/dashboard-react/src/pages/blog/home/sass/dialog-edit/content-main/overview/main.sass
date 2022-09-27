@@ -1,0 +1,51 @@
+.tc-overview
+
+    @import 'components/input/sass/main'
+    @import 'components/button-text/sass/main'
+    @import 'components/button-icon/sass/main'
+
+    .form-row
+        &:not(:first-child)
+            margin-top: 25px
+
+        .group
+            display: flex
+            align-items: center
+            gap: 10px
+
+            .input-icon
+                flex: 1
+            
+            .button-icon
+                width: 30px
+                height: 30px
+                font-size: 15px
+
+    label,
+    input,
+    textarea
+        font-size: 0.8rem
+
+    textarea
+        height: 150px
+
+    .keywords
+        display: flex
+        flex-wrap: wrap
+        gap: 10px
+        
+        .keyword
+            display: inline-flex
+            align-items: center
+            gap: 5px
+
+            .value
+                display: inline-block
+                padding: 5px 10px
+                border-radius: 0.4rem 
+                font-size: 0.8rem
+            .button-icon
+                width: 20px
+                height: 20px
+                font-size: 15px
+        

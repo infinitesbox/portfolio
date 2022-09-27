@@ -1,0 +1,47 @@
+& > .block-3
+    display: flex
+    flex: 1
+    gap: 10px
+    flex-direction: column
+    box-sizing: border-box
+    padding: 10px
+    font-size: 0.8rem
+
+    .description
+        width: 100%
+        flex: 1
+        text-align: justify
+
+    .keywords
+        width: 100%
+        box-sizing: border-box
+        padding: 10px
+        display: flex
+        flex-wrap: wrap
+        gap: 10px
+
+        .keyword
+            font-size: 0.8rem
+            box-sizing: border-box
+            padding: 5px 10px
+            border-radius: 1rem
+
+
+    .date
+        width: 100%
+        font-size: 0.8rem
+        text-align: right
+        position: relative
+        box-sizing: border-box
+        padding-top: 10px
+
+        &::before
+            content: ''
+            display: block
+            width: 90%
+            height: 2px
+            position: absolute
+            top: -2px
+            left: 50%
+            transform: translateX(-50%)
+        
